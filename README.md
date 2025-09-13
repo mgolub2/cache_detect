@@ -140,6 +140,3 @@ python3 plot_cache_logs.py "logs/Apple M1 Max (random).txt" "logs/Apple M1 Max (
 - `4GB/*.txt` are example snapshots of full-range runs for reference. No other `.txt` files are tracked by default.
 - CSVs and images are ignored by git; produce them locally as needed.
 
-### License
-
-This repository is provided as-is for benchmarking and educational use.
