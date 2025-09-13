@@ -1,0 +1,14 @@
+.DS_Store
+*.o
+/cache_detect
+gptoss
+*.csv
+*.png
+*.pdf
+*.svg
+__pycache__/
+*.pyc
+.venv/
+.env
+*.txt
+!4GB/*.txt
