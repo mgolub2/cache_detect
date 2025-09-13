@@ -2,6 +2,8 @@
 
 This repository contains a portable cache latency microbenchmark and helper tooling to run it across hosts and visualize results.
 
+![Example plot for a random pattern on a 4GiB run across various CPUs](cache_plot.png "Random Pointer Chasings")
+
 - **`cache_detect.c`**: Pointer-chasing benchmark to detect cache latencies and approximate cache sizes.
 - **`sync_build_run.py`**: Syncs sources to remote hosts via SSH, builds once, runs the benchmark for selected patterns up to 1 GiB, and collects logs locally.
 - **`plot_cache_logs.py`**: Plots one or more benchmark logs into a single figure and writes a combined CSV.
