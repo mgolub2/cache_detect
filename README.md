@@ -18,13 +18,6 @@ make run    # run locally with defaults
 make clean  # remove build artifacts
 ```
 
-There is also an auxiliary target:
-
-```bash
-make gptoss
-make run-gptoss
-```
-
 ### `cache_detect` usage
 
 The benchmark performs pointer-chasing across a working set and reports nanoseconds per access vs. working-set size. It also prints an approximate cache level summary.

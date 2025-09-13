@@ -25,12 +25,6 @@ $(TARGET): $(OBJS)
 run: $(TARGET)
 	./$(TARGET)
 
-gptoss: gptoss.c
-	$(CC) $(CFLAGS) -O3 -o $@ $< $(LDFLAGS)
-
-run-gptoss: gptoss
-	./gptoss
-
 clean:
 	rm -f $(TARGET) $(OBJS) gptoss
 
